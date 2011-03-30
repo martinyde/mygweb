@@ -1,0 +1,22 @@
+/* !----- / Variables & mixins ----- */
+@gutterwidth: 10px;
+@fieldset-border-color: #e7e7e7;
+@fieldset-shadow-color: #f1f1f1;
+
+.drop-shadow(@param) {
+  -webkit-box-shadow: @param;
+  -moz-box-shadow: @param;
+  box-shadow: @param;
+}
+
+.border-radius(@param) {
+  -webkit-border-radius: @param;
+  -moz-border-radius: @param;
+  box-border-radius: @param;
+}
+
+.rotation(@deg: 5deg) {
+  -webkit-transform: rotate(@deg);
+  -moz-transform: rotate(@deg);
+  transform: rotate(@deg);
+}
